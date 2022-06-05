@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - yeoman-test > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-environment > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-generator > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > inquirer > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-environment > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-generator > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-environment > grouped-queue > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-environment > inquirer > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-generator > yeoman-environment > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-generator > async > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-environment > grouped-queue > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-environment > inquirer > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-generator > yeoman-environment > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-generator > async > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
+    - yeoman-test > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-06-05T17:19:49.682Z'
